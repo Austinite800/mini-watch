@@ -1,0 +1,64 @@
+{
+    "author": "Austin Li",
+    "dependencies": {
+        "pebble-clay": "^1.0.2"
+    },
+    "keywords": [],
+    "name": "mini-watch",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Mini Watch",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "TextColor",
+            "BatteryColor",
+            "LeftStripeColor",
+            "RightStripeColor",
+            "WatchBandColor",
+            "WatchFaceColor",
+            "StrapDetails",
+            "InvertOutline",
+            "BatteryBarToggle",
+            "SelectClock",
+            "HandsColor",
+            "SecondHandColor",
+            "HourDots"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "fonts/NotoSans-Regular18.ttf",
+                    "name": "NOTO_SANS_REGULAR_18",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/NotoSans-Bold36.ttf",
+                    "name": "NOTO_SANS_BOLD_36",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/NotoSans-Regular36.ttf",
+                    "name": "NOTO_SANS_REGULAR_36",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "00ff454a-c1ae-440a-905c-7c3c25ee4611",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
